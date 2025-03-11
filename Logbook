@@ -1,4 +1,67 @@
-  3/09/2025
+
+
+Project Overview
+
+Objective: Develop a smart automation system using Arduino to control and monitor devices remotely.
+Scope: The system will include sensors, actuators, and a communication module to automate tasks such as lighting, temperature control, and security.
+Tools & Components: Arduino board, sensors (temperature, motion, light), relays, actuators, Wi-Fi module, power supply, and a mobile application for control.
+
+Project Timeline & Milestones
+
+Phase 1: Research and gather requirements
+
+Phase 2: Component selection and procurement
+
+Phase 3: Initial circuit design and simulation
+
+Phase 4: Hardware assembly and wiring
+
+Phase 5: Software development (Arduino IDE, mobile app integration)
+
+Phase 6: Testing and debugging
+
+Phase 7: System optimization and final testing
+
+Phase 8: Documentation and project completion
+
+Phase Progress Log
+
+Phase 1:
+
+Tasks Completed:
+
+Defined project scope and objectives.
+
+Conducted research on similar automation systems.
+
+Challenges Faced:
+
+Finding the most efficient communication protocol.
+
+Next Steps:
+
+Shortlist required components.
+
+Phase 2: 
+
+Tasks Completed:
+
+Selected microcontroller (Arduino Uno).
+.
+
+Ordered sensors (temperature, motion, light).
+
+Challenges Faced:
+
+Compatibility issues with different modules.
+
+Next Steps:
+
+Begin circuit design and simulation.
+
+[Continue logging daily progress in a similar format.
+
+3/09/2025
 Zachary began work on a wiring diagram for the Proof of Concept Prototype in TinkerCAD.
 
   3/10/2025
