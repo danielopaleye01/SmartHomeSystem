@@ -79,3 +79,9 @@ Zachary and Jameela assembled, programmed, and tested the Proof of Concept Proto
     The temperature/humidity sensor was already at 80 degrees Fahrenheit and the HVAC LED activated.
     Cold water was obtained to cool the temperature/humidity sensor down until the HVAC LED deactivated.
     The HVAC LED reactivated once the temperature/humidity sensor heated up again.
+  Test 4: Reworked circuit
+    Design and program was found to have the motion and temperature/humidity sensors operating separately.
+    The program and circuit reworked to ensure the temperature/humidity sensor (and HVAC LED, by extension) is dependent on the motion sensor.
+    The motion senstor potentiometers were adjusted for accuracy and feasability of testing and diagnostics.
+    The temperature/humidity and HVAC LED would deactivate after no motion detected for long enough.
+    Prototype met design and operation requirements.
