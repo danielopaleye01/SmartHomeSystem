@@ -1,1 +1,18 @@
+  3/09/2025
+Zachary began work on a wiring diagram for the Proof of Concept Prototype in TinkerCAD.
 
+  3/10/2025
+Zachary finalized the wiring diagram.
+Zachary and Jameela assembled, programmed, and tested the Proof of Concept Prototype.
+  Test 1: Initial test of prototype
+    The power and ground leads in the PIR motion sensor were reversed.
+    The issue prevented the rest of the system from functioning.
+  Test 2: Fixed incorrect motion sensor wiring
+    The lights LED activated when the motion sensor was tripped.
+    The temperature and humididty sensor registered input.
+    The wire connecting the HVAC indicator LED was faulty and prevented the component from activating.
+  Test 3: Replaced faulty wire
+    The lights LED activated when the motion sensor was tripped.
+    The temperature/humidity sensor was already at 80 degrees Fahrenheit and the HVAC LED activated.
+    Cold water was obtained to cool the temperature/humidity sensor down until the HVAC LED deactivated.
+    The HVAC LED reactivated once the temperature/humidity sensor heated up again.
