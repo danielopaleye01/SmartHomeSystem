@@ -1,0 +1,101 @@
+
+
+Project Overview
+
+Objective: Develop a smart automation system using Arduino to control and monitor devices remotely.
+Scope: The system will include sensors, actuators, and a communication module to automate tasks such as lighting, temperature control, and security.
+Tools & Components: Arduino board, sensors (temperature, motion, light), relays, actuators, Wi-Fi module, power supply, and a mobile application for control.
+
+
+Project Timeline & Milestones
+
+Phase 1: Research and gather requirements
+
+Phase 2: Component selection and procurement
+
+Phase 3: Initial circuit design and simulation
+
+Phase 4: Hardware assembly and wiring
+
+Phase 5: Software development (Arduino IDE, mobile app integration)
+
+Phase 6: Testing and debugging
+
+Phase 7: System optimization and final testing
+
+Phase 8: Documentation and project completion
+
+Phase Progress Log
+
+Phase 1:
+
+Tasks Completed:
+
+Defined project scope and objectives.
+
+Conducted research on similar automation systems.
+
+Challenges Faced:
+
+Finding the most efficient communication protocol.
+
+Next Steps:
+
+Shortlist required components.
+
+Phase 2: 
+
+Tasks Completed:
+
+Selected microcontroller (Arduino Uno).
+Reason for Selection: 
+Because of its dependability, user-friendliness, and comprehensive documentation, we decided to use the Arduino Uno as the microcontroller for our smart automation system.  The Arduino Uno offered a well-balanced platform for implementation and prototyping, especially considering the size of our project, which included integrating sensors, actuators, and communication modules. An alternative that we considered was the ESP32, which is a very good fit for this project, however its a more complex microcontroller with higher power consumption which would be a problem later on especially with the amount of components we want to implement.
+.
+
+Ordered sensors (temperature, motion, light).
+DHT11 Temperature Sensor
+We selected the DHT11 sensor for monitoring environment, this will help us to monitor the temperature in the room to allow for appropriate temperature change and HVAC activation thresholds based off the user-defined comfort settings. We also considered the BME280 for this project but we ultimately decided to stick with the DHT11 due to the BME being overkill for our use. The DHT11 offers an integrated temperature and humidity measurement in a single package, the output is digital which makes the data handling a breeze
+
+
+PIR Motion Sensor
+We chose this sensor to detect room occupancy and trigger automation routines like lighting and HVAC control. The PIRs are very reliable and efficient at detecting motion by sensing infrared radiation changes from moving bodies, which made it ideal for indoor automation scenarios. For our project we considered a Ultrasonic sensor which would've served as a similar proximity function but it lacks remote control compatibility. The IR sensors are cost effective and easy to program using Arduino, it is ideal for line-of-sight, short range interactions.  
+
+From the beginning we wanted to develop a automation system that was functional, scalable and easy to demonstrate. We approached the project by first figuring out the real world problems that we face on a everyday basis. While discovering this we asked ourselves a couple questions that helps us get a picture of what we want out product to be. Questions like "What are the most common automation needs in a room or building? How can we detect presence, environmental conditions and control devices based on unput data?
+
+Challenges Faced:
+
+Compatibility issues with different modules.
+
+Next Steps:
+
+Begin circuit design and simulation.
+
+[Continue logging daily progress in a similar format.
+
+3/09/2025
+Zachary began work on a wiring diagram for the Proof of Concept Prototype in TinkerCAD.
+
+  3/10/2025
+Zachary finalized the wiring diagram.
+Zachary and Jameela assembled, programmed, and tested the Proof of Concept Prototype.
+  Test 1: Initial test of prototype
+    The power and ground leads in the PIR motion sensor were reversed.
+    The issue prevented the rest of the system from functioning.
+  Test 2: Fixed incorrect motion sensor wiring
+    The lights LED activated when the motion sensor was tripped.
+    The temperature and humididty sensor registered input.
+    The wire connecting the HVAC indicator LED was faulty and prevented the component from activating.
+  Test 3: Replaced faulty wire
+    The lights LED activated when the motion sensor was tripped.
+    The temperature/humidity sensor was already at 80 degrees Fahrenheit and the HVAC LED activated.
+    Cold water was obtained to cool the temperature/humidity sensor down until the HVAC LED deactivated.
+    The HVAC LED reactivated once the temperature/humidity sensor heated up again.
+  Test 4: Reworked circuit
+    Design and program was found to have the motion and temperature/humidity sensors operating separately.
+    The program and circuit reworked to ensure the temperature/humidity sensor (and HVAC LED, by extension) is dependent on the motion sensor.
+    The motion senstor potentiometers were adjusted for accuracy and feasability of testing and diagnostics.
+    The temperature/humidity and HVAC LED would deactivate after no motion detected for long enough.
+    Prototype met design and operation requirements.
+
+05/13,2025
+Worked on project as a collective troubleshooting any issues found on project that wasn't there originally.
