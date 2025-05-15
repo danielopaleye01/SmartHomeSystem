@@ -1,0 +1,61 @@
+Info: Processing symbol '16MHz1:Crystal:Crystal_HC49-U_Vertical'.
+Info: Processing symbol 'AmbientTEMPSENSOR1:Package_TO_SOT_THT:TO-92_Inline'.
+Info: Processing symbol 'BZ1:Buzzer_Beeper:Buzzer_12x9.5RM7.6'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_Elec_5x5.4'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_Elec_5x5.4'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_Elec_5x5.4'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_Elec_5x5.4'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_Elec_5x5.4'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_Elec_5x5.4'.
+Info: Processing symbol 'D1:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal'.
+Info: Processing symbol 'D2:LED_SMD:LED_PLCC-2_3x2mm_AK'.
+Info: Processing symbol 'D3:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal'.
+Info: Processing symbol 'D4:LED_SMD:LED_1W_3W_R8'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Info: Processing symbol 'D5:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal'.
+Info: Processing symbol 'DHT11-TEMP&HUMD1:Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical'.
+Info: Processing symbol 'DIO3:LED_SMD:LED-L1T2_LUMILEDS'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Info: Processing symbol 'H1:MountingHole:MountingHole_2.1mm'.
+Info: Processing symbol 'H2:MountingHole:MountingHole_2.1mm'.
+Info: Processing symbol 'H3:MountingHole:MountingHole_2.1mm'.
+Info: Processing symbol 'H4:MountingHole:MountingHole_2.1mm'.
+Info: Processing symbol 'J1:Sensor_Distance:AMS_OLGA12'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Info: Processing symbol 'RF1:RF:Skyworks_SKY65404-31'.
+Info: Processing symbol 'U1:Package_DIP:DIP-40_W15.24mm'.
+Info: Processing symbol 'U2:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Total warnings: 14, errors: 0.
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical'.
+Info: Processing symbol 'J3:Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal'.
+Info: Processing symbol 'M1:Connector:FanPinHeader_1x03_P2.54mm_Vertical'.
+Info: Processing symbol 'PIRSENSOR1:Connector:FanPinHeader_1x03_P2.54mm_Vertical'.
+Info: Processing symbol 'PIRSENSOR2:Connector:FanPinHeader_1x03_P2.54mm_Vertical'.
+Info: Processing symbol 'Q1:Transistor_Power:GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm'.
+Info: Processing symbol 'Q2:Transistor_Power:GaN_Systems_GaNPX-3_5x6.6mm_Drain2.93x0.6mm'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder'.
+Changed J1 footprint from 'Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm_NoMask' to 'Sensor_Distance:AMS_OLGA12'.
+Updated J1 fields.
+
+
+Warning: No net found for component D4 pad 3 (no pin 3 in symbol).
+Warning: No net found for component DIO3 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J1 pad 5 (no pin 5 in symbol).
+Warning: No net found for component J1 pad 6 (no pin 6 in symbol).
+Warning: No net found for component J1 pad 12 (no pin 12 in symbol).
+Warning: No net found for component J1 pad 11 (no pin 11 in symbol).
+Warning: No net found for component M1 pad 3 (no pin 3 in symbol).
+Warning: No net found for component J1 pad 8 (no pin 8 in symbol).
+Warning: No net found for component J1 pad 7 (no pin 7 in symbol).
+Warning: No net found for component RF1 pad 5 (no pin 5 in symbol).
+Warning: No net found for component RF1 pad 7 (no pin 7 in symbol).
+Warning: No net found for component J1 pad 10 (no pin 10 in symbol).
+Warning: No net found for component J1 pad 9 (no pin 9 in symbol).
+Warning: No net found for component RF1 pad 6 (no pin 6 in symbol).
+
+
+Info: Total warnings: 14, errors: 0.

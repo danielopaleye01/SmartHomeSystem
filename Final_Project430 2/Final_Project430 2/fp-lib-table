@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Sensors")(type "KiCad")(uri "C:/Users/Milly/Downloads/kicad-lib-master/Sensors.pretty")(options "")(descr ""))
+)
